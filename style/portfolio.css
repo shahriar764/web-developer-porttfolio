@@ -9,6 +9,9 @@
 }
 
 /* shared style- */
+.secondary-bg{
+    background-color:#FFF8F3;
+}
 .text-primary{
     color:#FD6E0A;
 }
@@ -23,6 +26,16 @@
     border:none;
     padding:18px 20px;
     border-radius:5px;
+
+}
+.section-title{
+    font-size:35px;
+    font-weight:bold;
+    color: #181818;
+}
+.section-description{
+    font-size:18px;
+    color: #767676;
 }
 /* header */
 .header{
@@ -76,4 +89,24 @@
 }
 .banner-profile-pic{
     width:580px;
+}
+/* Main style */
+.main{
+    max-width:1140px;
+    margin:0 auto;
+}
+
+/* about styles */
+.about{
+    border-radius:10px;
+    padding:130px 150ox
+    text-align:center;
+    margin-top:130px;
+}
+.about-items{
+    display: flex;
+    justify-content:space-around;
+}
+.item-description{
+    font-weight:600;
 }
